@@ -3,6 +3,7 @@
 /**
  * main -Prints sizes
  *
+ * Return: size of different types or 0
  */
 int main(void)
 {
