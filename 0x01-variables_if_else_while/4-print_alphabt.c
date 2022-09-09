@@ -9,8 +9,8 @@
 int main(void)
 {
 	char c = 'a';
-
 	char zd = c + 26;
+
 	while (c < zd)
 	{
 		if (c == 'e' || c == 'q')
