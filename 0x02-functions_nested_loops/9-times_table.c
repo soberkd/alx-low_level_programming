@@ -1,4 +1,7 @@
 #include "main.h"
+/**
+ * times_table - prints table to 9
+ */
 
 void times_table(void)
 {
@@ -14,7 +17,7 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
-			} 
+			}
 			if (mult == 0)
 			{
 				_putchar('0');
