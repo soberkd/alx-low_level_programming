@@ -10,11 +10,10 @@
  * Return: value of n if positive or zero or negative or return 0
  */
 
-int debug(void)
+int debug(int i)
 {
-		int n;
 		/* your code goes there */
-		if (positive_or_negative(int i) == 0)
+		if (positive_or_negative(i))
 		{
 			printf("Fuction is working");
 		}

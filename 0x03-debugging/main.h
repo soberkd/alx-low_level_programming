@@ -5,5 +5,5 @@
 
 int positive_or_negative(int i);
 
-int debug(void);
+int debug(int i);
 #endif /* MAIN_H */
