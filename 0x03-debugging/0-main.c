@@ -1,25 +1,16 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <stddef.h>
 #include "main.h"
-/* more headers goes there */
 
 /**
- * main - main fuction
- *
- * Return: value of n if positive or zero or negative or return 0
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
  */
 
-int debug(int i)
+int main(void)
 {
-		/* your code goes there */
-		if (positive_or_negative(i))
-		{
-			printf("Fuction is working");
-		}
-		else
-		{
-			printf("Error");
-		}
-		return (0);
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
+
+	return (0);
 }
