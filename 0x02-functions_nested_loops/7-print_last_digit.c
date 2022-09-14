@@ -10,5 +10,11 @@ int print_last_digit(int value)
 	int mod;
 
 	mod = value % 10;
-	return (abs(mod));
+	if (mod < 0)
+	{
+		mod = mod * (-1);
+	}
+	_putchar(mod + '0');
+	return (mod);
+	/*return (abs(mod));*/
 }
