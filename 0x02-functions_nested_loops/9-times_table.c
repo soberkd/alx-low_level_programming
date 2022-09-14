@@ -10,15 +10,17 @@ void times_table(void)
 		for (mult = 0; mult <= 9; mult++)
 		{
 			square = base * mult;
-			if ( mult != 0)
+			if (mult != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
-			}if (base == 0)
+			} 
+			if (mult == 0)
 			{
 				_putchar('0');
+
 			}
-			else if ((square < 10) && (base != 0))
+			else if ((square < 10) && (mult != 0))
 			{
 				_putchar(' ');
 				_putchar(square + '0');
