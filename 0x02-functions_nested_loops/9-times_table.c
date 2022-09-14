@@ -12,6 +12,7 @@ void times_table(void)
 			square = base * mult;
 			if (square < 10)
 			{
+				_putchar(' ');
 				_putchar(square + '0');
 				_putchar(',');
 				_putchar(' ');
