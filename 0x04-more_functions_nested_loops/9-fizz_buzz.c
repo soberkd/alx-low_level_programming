@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints 1-100 adding fizz to multiples of 3 and adding buzz to
