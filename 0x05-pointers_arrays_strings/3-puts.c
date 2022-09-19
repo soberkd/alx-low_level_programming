@@ -6,5 +6,12 @@
  */
 void _puts(char *str)
 {
-	puts(str);
+	char *ch = str;
+	int arr;
+
+	for (arr = 0; ch[arr]; arr++)
+	{
+		_putchar(ch[arr]);
+	}
+	_putchar('\n');
 }
