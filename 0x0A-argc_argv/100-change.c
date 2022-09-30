@@ -5,6 +5,7 @@
  * main - minimum change of a number
  * @argc: number of arguements
  * @argv: value of arguements
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
