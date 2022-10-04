@@ -25,11 +25,11 @@ char *str_concat(char *s1, char *s2)
 	if (con != NULL)
 	{
 		for (x = 0; x < i; x++)
-			con[x] = s1[x];
+			con[x + 1] = s1[x];
 		for (y = 0; y < j; y++)
-			con[i + y] = s2[y];
+			con[i + y + 1] = s2[y];
 	}
 	else
-		return(NULL);
+		return (NULL);
 	return (con);
 }
