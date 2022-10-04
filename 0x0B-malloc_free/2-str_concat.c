@@ -22,11 +22,14 @@ char *str_concat(char *s1, char *s2)
 		j++;
 
 	con = malloc(sizeof(char) * (j + i + 1));
-	if (con == NULL)
-		return (NULL);
-	for (x = 0; x < i; x++)
-		con[x] = s1[x];
-	for (y = 0; y < j; y++)
-		con[i + y] = s2[y];
+	if (con != NULL)
+	{
+		for (x = 0; x < i; x++)
+			con[x] = s1[x];
+		for (y = 0; y < j; y++)
+			con[i + y] = s2[y];
+	}
+	else
+		return(NULL);
 	return (con);
 }
