@@ -59,10 +59,10 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	return (dest);
 }
 /**
- *  * check_for_digits - checks the arguments to ensure they are digits
- *   * @av: pointer to arguments
- *    * Return: 0 if digits, 1 if not
- *     */
+ * check_for_digits - checks the arguments to ensure they are digits
+ * @av: pointer to arguments
+ * Return: 0 if digits, 1 if not
+ */
 int check_for_digits(char **av)
 {
 	int i, j;
@@ -138,4 +138,4 @@ int main(int argc, char *argv[])
 	}
 	_print(a, ln - 1);
 	return (0);
-
+}
