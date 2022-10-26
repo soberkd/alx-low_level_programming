@@ -4,6 +4,7 @@
  * add_nodeint - function that adds a new node at the end of a listint_t
  *  list.
  *  @head: pointer to pointer of head of the linked list
+ *  @n: value of node in list
  *
  *  Return: the address of the new element, or NULL if it failed
  */
