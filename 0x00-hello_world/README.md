@@ -30,6 +30,6 @@
 #### Task 7
 > A script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
 #### Task 8
->  C program that prints exactly ==and that piece of art is useful" - Dora Korpar, 2015-10-19==, followed by a new line, to the standard error.
+>  C program that prints exactly *and that piece of art is useful" - Dora Korpar, 2015-10-19*, followed by a new line, to the standard error.
 
 [^1]: Loving C :grey_exclamation:
