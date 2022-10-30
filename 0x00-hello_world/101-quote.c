@@ -10,7 +10,7 @@
 int main(void)
 {
 	char name[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	/* write("and that piece of art is useful\" - Dora Korpar, 2015-10-19", 59); */
-	printf("%s \n", name);
+
+	printf("%s\n", name);
 	return (1);
 }
