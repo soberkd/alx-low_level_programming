@@ -13,20 +13,19 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (!filename)
 		return (-1);
-	fd = open(filename, O_WRONLY | O_APPEND);
-	if (fd)
+	if (!text_content)
+		return (-1);
+	fd = open(filename, O_WRONLY | O_APPEND, 0600);
+	if (fd == -1)
+		return (-1);
+	wrt = write(fd, text_content, sizeof(text_content));
+	if (wrt == -1)
 	{
-		if (!text_content)
-			return (-1);
-		wrt = write(fd, text_content, sizeof(text_content));
-		if (wrt == -1)
-		{
-			close(fd);
-			return (-1);
-		}
 		close(fd);
-		return (1);
+		return (-1);
 	}
 	close(fd);
-	return (-1);
+	return (1);
+
+	close(fd);
 }
