@@ -10,7 +10,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 {
 	/* Allocate space for the hash table struct. */
 	hash_table_t *table = malloc(sizeof(hash_table_t));
-	unsigned long int = i
+	unsigned long int i;
 
 	if (table == NULL)
 		return (NULL);
